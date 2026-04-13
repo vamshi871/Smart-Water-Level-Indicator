@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f0f8ff;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.led {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+    display: inline-block;
+    background: gray;
+}
+
+#green { background: gray; }
+#yellow { background: gray; }
+#red { background: gray; }
+
+.active-green { background: green !important; }
+.active-yellow { background: yellow !important; }
+.active-red { background: red !important; }
+
+#status {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
