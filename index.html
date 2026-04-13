@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Water Level Indicator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Water Level Indicator</h1>
+
+    <input type="range" min="0" max="1023" value="0" id="slider">
+    <p>Water Level: <span id="value">0</span></p>
+
+    <div>
+        <div id="green" class="led"></div>
+        <div id="yellow" class="led"></div>
+        <div id="red" class="led"></div>
+    </div>
+
+    <p id="status">Status: LOW</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
